@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+.header{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 50px, 0;
+}
+
+.header h1{
+    font-size: 6em;
+}
+.header p{
+    font-size: 1.5rem;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+}
+
+.box{
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    padding: 20px;
+    width: 70%;
+    margin: 10px;
+    text-align: justify;
+    
+}
+
+.box h2{
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.footer{
+    background-color: rgb(68, 71, 71);
+    color: white;
+    text-align: center;
+    padding: 20px, 0;
+    margin-top: 0px;
+}
+
+.parallax1{
+    background-image: url(imagens/download-_3_\ \(1\).jpg);
+}
+
+.parallax2{
+    background-image: url(imagens/download\ \(1\).jpg);
+}
+
+.parallax3{
+    background-image: url(imagens/images-_4_.jpg);
+}
+
+.parallax{
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(210, 235, 226);
+    
+}
+
+.parallax1{
+    background-size: contain;
+}
+
+.parallax2{
+    background-size: cover;
+}
+
+.box p::selection{
+    background-color: yellow;
+    color: tomato;
+}
+
+@media (max-width:1280px) {
+    p{
+        font-size: 1.5rem;
+    }
+}
